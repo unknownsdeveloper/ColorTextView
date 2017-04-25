@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ankit.developer.unknowns.colortextview.MainActivity">
+
+    <loic.teillard.colortextview.ColorTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:clt_spaces="true"
+        app:clt_color1="#5D4037"
+        app:clt_color2="#F4511E"
+        app:clt_txt1="This is"
+        app:clt_txt2="Color Text View"
+    />
+</RelativeLayout>
